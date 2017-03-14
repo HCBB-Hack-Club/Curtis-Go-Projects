@@ -7,6 +7,7 @@ func main() {
 	for i := 1; i <= 25; i++ {
 		printType := 0
 
+		// maths
 		if i%15 == 0 {
 			printType = 15
 		} else if i%5 == 0 {
@@ -15,6 +16,7 @@ func main() {
 			printType = 3
 		}
 
+		// print
 		switch printType {
 		case 3:
 			fmt.Println("Fizzles")
